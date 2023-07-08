@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3be25c8.chunk.css",
+    "main.js": "/static/js/main.b9edcf40.chunk.js",
+    "main.js.map": "/static/js/main.b9edcf40.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f7b607cb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f7b607cb.js.map",
+    "static/js/2.a63b48d0.chunk.js": "/static/js/2.a63b48d0.chunk.js",
+    "static/js/2.a63b48d0.chunk.js.map": "/static/js/2.a63b48d0.chunk.js.map",
+    "static/js/3.63f6a195.chunk.js": "/static/js/3.63f6a195.chunk.js",
+    "static/js/3.63f6a195.chunk.js.map": "/static/js/3.63f6a195.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b3be25c8.chunk.css.map": "/static/css/main.b3be25c8.chunk.css.map",
+    "static/js/2.a63b48d0.chunk.js.LICENSE.txt": "/static/js/2.a63b48d0.chunk.js.LICENSE.txt",
+    "static/media/VeryboxWallet2.b29df0a5.png": "/static/media/VeryboxWallet2.b29df0a5.png",
+    "static/media/chrome-color-svgrepo-com.6f0b3c46.svg": "/static/media/chrome-color-svgrepo-com.6f0b3c46.svg",
+    "static/media/reset.css": "/static/media/font.617a0a92.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7b607cb.js",
+    "static/js/2.a63b48d0.chunk.js",
+    "static/css/main.b3be25c8.chunk.css",
+    "static/js/main.b9edcf40.chunk.js"
+  ]
+}

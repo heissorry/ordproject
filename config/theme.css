@@ -1,0 +1,328 @@
+:root {
+  --primary: #5a82b6;
+  --primary-text: #000000;
+  --secondary: #46c279;
+  --secondary-text: #ffffff;
+  --accent: #000000;
+  --accent-text: #ffffff;
+}
+
+#main-container{
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: solid 1px #000;
+}
+
+/* color y tamano */
+
+#main-container main h1 {
+  padding-top: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+    background: orange;
+    background: -webkit-gradient(linear,left top,right top,from(orange),to(red
+    ));
+    background: -webkit-linear-gradient(left,orange,red);
+    background: linear-gradient(
+90deg
+,orange,red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#main-container main p{
+  padding-top: 10px;
+  color:white;
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* cajas guia
+
+.main_box{
+  border: solid 5px #000;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text{
+  border: solid 1px #000;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.images{
+  border: solid 1px #000;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+*/
+
+/* contenido */
+
+.main_box{
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+}
+
+.text {
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+#image_zombie{
+  margin: 0 auto;
+  width: 30%;
+  align-content: center;
+}
+
+#logo_opensea {
+  margin: 0 auto;
+  width: 180px;
+  align-content: center;
+  padding-top: 35px;
+}
+
+#Comunity{
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+#social_media{
+  margin: 0 auto;
+  padding: 0;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.logo1{
+  margin-right: 10px;
+}
+
+.logo2{
+  margin-right: 10px;
+}
+
+.logo3{
+  margin-right: 10px;
+}
+
+/*
+.discord{
+  margin: 0 auto;
+  width: 10%;
+  align-content: center;
+}
+
+.twitter{
+  margin: 0 auto;
+  width: 10%;
+  align-content: center;
+}
+
+.instagram{
+  margin: 0 auto;
+  width: 13%;
+  align-content: center;
+}
+*/
+
+/* Parte 2 "Beneficios" */
+
+#Beneficios{
+  background-image: url(images/glow.png);
+  background-repeat: no-repeat;
+  background-position: 650px 0;
+  background-size: 800px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  padding: 50px;
+  align-content: center;
+  color:black;
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#Beneficios h2 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+    background: rgb(9, 255, 0);
+    background: -webkit-gradient(linear,left top,right top,from(rgb(0, 255, 13)),to(rgb(0, 0, 255)
+    ));
+    background: -webkit-linear-gradient(left,rgb(0, 255, 0),rgb(4, 0, 255));
+    background: linear-gradient(
+90deg
+,rgb(0, 255, 34),rgb(0, 4, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.b_iniciales p{
+  padding-top: 5px;
+}
+
+#image_zombie_banner{
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+/* Parte 3 "Roadmap" */
+
+#Roadmap{
+  background-image: url(images/line_glow1.png);
+  background-repeat: no-repeat;
+  background-position: 0 -200px;
+  background-size: 100% 100%;
+
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+  padding: 50px;
+  align-content: center;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Roadmap h3 {
+  padding: 10px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+    background: rgb(4, 0, 255);
+    background: -webkit-gradient(linear,left top,right top,from(rgb(38, 0, 255)),to(rgb(208, 255, 0)
+    ));
+    background: -webkit-linear-gradient(left,rgb(0, 4, 255),rgb(255, 247, 0));
+    background: linear-gradient(
+90deg
+,rgb(0, 102, 255),rgb(255, 255, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stage1 p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+    background: rgb(255, 255, 255);
+    background: -webkit-gradient(linear,left top,right top,from(rgb(255, 255, 255)),to(rgb(255, 255, 255)
+    ));
+    background: -webkit-linear-gradient(left,rgb(255, 255, 255),rgb(255, 255, 255));
+    background: linear-gradient(
+90deg
+,rgb(255, 255, 255),rgb(255, 77, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stage2 p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+    background: rgb(255, 255, 255);
+    background: -webkit-gradient(linear,left top,right top,from(rgb(255, 255, 255)),to(rgb(255, 255, 255)
+    ));
+    background: -webkit-linear-gradient(left,rgb(255, 255, 255),rgb(245, 245, 245));
+    background: linear-gradient(
+90deg
+,rgb(255, 255, 255),rgb(255, 234, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stage3 p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+    background: rgb(255, 255, 255);
+    background: -webkit-gradient(linear,left top,right top,from(rgb(255, 255, 255)),to(rgb(255, 255, 255)
+    ));
+    background: -webkit-linear-gradient(left,rgb(255, 255, 255),rgb(245, 245, 245));
+    background: linear-gradient(
+90deg
+,rgb(255, 255, 255),rgb(85, 255, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stage4 p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+    background: rgb(255, 255, 255);
+    background: -webkit-gradient(linear,left top,right top,from(rgb(255, 255, 255)),to(rgb(255, 255, 255)
+    ));
+    background: -webkit-linear-gradient(left,rgb(255, 255, 255),rgb(245, 245, 245));
+    background: linear-gradient(
+90deg
+,rgb(255, 255, 255),rgb(0, 255, 208));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stage5 p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+    background: rgb(255, 255, 255);
+    background: -webkit-gradient(linear,left top,right top,from(rgb(255, 255, 255)),to(rgb(255, 255, 255)
+    ));
+    background: -webkit-linear-gradient(left,rgb(255, 255, 255),rgb(245, 245, 245));
+    background: linear-gradient(
+90deg
+,rgb(255, 255, 255),rgb(0, 21, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stage6 p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+    background: rgb(255, 255, 255);
+    background: -webkit-gradient(linear,left top,right top,from(rgb(255, 255, 255)),to(rgb(255, 255, 255)
+    ));
+    background: -webkit-linear-gradient(left,rgb(255, 255, 255),rgb(245, 245, 245));
+    background: linear-gradient(
+90deg
+,rgb(255, 255, 255),rgb(170, 0, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Detalles finales */
+
+#mini_game{
+  margin: 0 auto;
+  width: 80%;
+  align-content: center;
+}

@@ -1,0 +1,21 @@
+{
+  "CONTRACT_ADDRESS": "0x42890AEbf71707Df03D7D9a6BC376e8293ED2E14",
+  "SCAN_LINK": "https://goerli.etherscan.io/address/0x42890AEbf71707Df03D7D9a6BC376e8293ED2E14",
+  "NETWORK": {
+    "NAME": "Goerli",
+    "SYMBOL": "Goerli-Eth",
+    "ID": 5
+  },
+  "NFT_NAME": "vb",
+  "SYMBOL": "NFT",
+  "MAX_SUPPLY": 1000,
+  "WEI_COST": 65000000000000000,
+  "DISPLAY_COST": 0.065,
+  "WL_WEI_COST": 45000000000000000,
+  "WL_DISPLAY_COST": 0.045,  
+  "GAS_LIMIT": 200000,
+  "MAX_MINT_AMOUNT":1,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/vb12345",
+  "SHOW_BACKGROUND": true
+}
